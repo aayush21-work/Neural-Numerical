@@ -6,7 +6,7 @@
 [![CUDA](https://img.shields.io/badge/CUDA-11.0%2B-green.svg)](https://developer.nvidia.com/cuda-toolkit)
 
 ## Overview
-This project demonstrates a hybrid approach to solving non-linear systems. By utilizing a Neural Network to provide an initial guess (Warm Start) for a Newton-Raphson solver, we significantly reduce the iteration count and eliminate convergence failures common in "cold start" numerical methods.
+This project demonstrates a hybrid approach to solving non-linear systems. By utilising a Neural Network to provide an initial guess (Warm Start) for a Newton-Raphson solver, we significantly reduce the iteration count and eliminate convergence failures common in "cold start" numerical methods. The idea is to expand this into a full blown setup for a large pool of commonly used numerical methods espicially which depends on user given priors. The benchmark shows the prototype with the simple benchmark, the target is a polynomial so the gap is not that much but for a stiff function a large speedup is expected which will be added in due time.
 
 ---
 
