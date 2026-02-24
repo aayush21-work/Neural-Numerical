@@ -18,7 +18,7 @@ The following data compares a standard **Newton-Raphson** implementation against
 | **Avg Iterations** | 7.25 | **5.00** | **1.45x Reduction** |
 | **Convergence Failures** | 9 | **0** | **100% Reliability** |
 
-### GPU Inference Performance**
+### **GPU Inference Performance**
 The neural network component is optimized for ultra-low latency, ensuring that the "guess" phase does not bottleneck the numerical refinement.
 * **Total GPU Inference (2000 samples):** 0.171 ms
 * **Per-Sample Latency:** **0.085 μs**
