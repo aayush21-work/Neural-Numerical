@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# ML/Data
+data/*.csv
+data/*.npy
+models/*.pt
+models/*.pth
+
+# OS
+.DS_Store
