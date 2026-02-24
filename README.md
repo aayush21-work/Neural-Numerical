@@ -52,3 +52,7 @@ Sample 5:
 Plain Newton  : steps=7
 Hybrid Newton : x=-2.167243
 Hybrid Newton : x=1.528670 (Converged to alternate root via ML)
+```
+
+## Usage
+Clone the repo and simply run ```make```. The default is the cuda accelrated version but if that does not work try ```make cpu``` which should work albeit slow. The overall result will not change but the training part may take longer depending upon the cpu power and model.
