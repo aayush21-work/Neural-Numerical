@@ -3,6 +3,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![CUDA](https://img.shields.io/badge/CUDA-11.0%2B-green.svg)](https://developer.nvidia.com/cuda-toolkit)
 
 ## Overview
 This project demonstrates a hybrid approach to solving non-linear systems. By utilizing a Neural Network to provide an initial guess (Warm Start) for a Newton-Raphson solver, we significantly reduce the iteration count and eliminate convergence failures common in "cold start" numerical methods.
